@@ -1,0 +1,38 @@
+{
+  "name": "ao-back-end",
+  "version": "1.0.0",
+  "description": "Back end service for Saggezza onboarding application.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://srm985@bitbucket.org/automated-onboarding/ao-back-end.git"
+  },
+  "author": "Sean McQuay",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/automated-onboarding/ao-back-end#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.7",
+    "nodemon": "^1.17.5",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.10"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-jsbeautifier": "^2.1.2",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-prettier": "^2.0.0"
+  }
+}
